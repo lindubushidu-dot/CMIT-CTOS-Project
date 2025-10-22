@@ -1,3 +1,3 @@
 # CMIT-CTOS-Project
-Create By nobody@chmk.com
-Data: 2025-10-10
+Created By nobody@chmk.com
+Date: 2025-10-10
