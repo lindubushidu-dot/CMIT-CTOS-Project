@@ -201,7 +201,8 @@ class TestL2xc(VppTestCase):
         #  Object variable to store information about next packet.
         ## @var remaining_packet
         #  Object variable to store information about remaining packet.
-        # CMIT Ctos():user/password  user:xw password:123456aa 
+        # CMIT Ctos():user/password  user:xw password:123456aa
+        # "cmit cots"
 
     ## Method defining L2 cross-connect test case.
     #  Contains steps of the test case.
@@ -222,6 +223,7 @@ class TestL2xc(VppTestCase):
         for i in self.interfaces:
             pkts = self.create_stream(i)
             self.pg_add_stream(i, pkts)
+            print("cmit ctos")
 
         ## Enable packet capturing and start packet sending
         self.pg_enable_capture(self.interfaces)
