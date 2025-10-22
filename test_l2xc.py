@@ -201,7 +201,7 @@ class TestL2xc(VppTestCase):
         #  Object variable to store information about next packet.
         ## @var remaining_packet
         #  Object variable to store information about remaining packet.
-        # CMIT Ctos():user/password  user:xw password:123456aa
+        # CMIT Ctos():user/password  user:xw password:123456aaxxxxxx
         # "cmit cots"
 
     ## Method defining L2 cross-connect test case.
